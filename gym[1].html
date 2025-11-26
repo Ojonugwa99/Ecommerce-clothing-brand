@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WX3 - Men & Unisex Gym Wear</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background: #111;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        nav a {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .hero {
+            width: 100%;
+            height: 80vh;
+            background-image: url('https://images.unsplash.com/photo-1599058918144-5a1d04f16a0d?w=1200');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 60px;
+            max-width: 700px;
+            padding: 20px;
+            background: rgba(0,0,0,0.6);
+        }
+        .products-section {
+            padding: 60px 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .product {
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .product img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        .product p {
+            opacity: 0.7;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #fff;
+            color: #000;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #111;
+            margin-top: 50px;
+            font-size: 14px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">WX3</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Unisex</a>
+        <a href="#">Gym Wears</a>
+        <a href="#">Shop</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>PERFORMANCE • STREET • STYLE<br>WX3 GYM WEAR COLLECTION</h1>
+</section>
+
+<section class="products-section">
+    <h2>🔥 Trending Gym Wear</h2>
+    <div class="grid">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1599058917860-dc41ee4d1c5e?w=900" />
+            <h3>WX3 Compression Top</h3>
+            <p>Breathable, sweat-proof and performance-ready.</p>
+            <a class="btn">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900" />
+            <h3>WX3 FlexFit Shorts</h3>
+            <p>Built for mobility and power movement.</p>
+            <a class="btn">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=900" />
+            <h3>WX3 Unisex Oversized Hoodie</h3>
+            <p>Streetwear meets gym comfort.</p>
+            <a class="btn">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=900" />
+            <h3>WX3 Training Joggers</h3>
+            <p>Perfect for workouts and lifestyle fits.</p>
+            <a class="btn">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=900" />
+            <h3>WX3 Athlete Tank</h3>
+            <p>Stay cool while lifting heavy.</p>
+            <a class="btn">Buy Now</a>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?w=900" />
+            <h3>WX3 Performance Set</h3>
+            <p>Complete unisex gym wear combo.</p>
+            <a class="btn">Buy Now</a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2025 WX3 Gym Wear Brand. All rights reserved.
+</footer>
+
+<script>
+    console.log("WX3 Brand Loaded Successfully");
+</script>
+
+</body>
+</html>
