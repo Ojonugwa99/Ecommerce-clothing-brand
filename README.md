@@ -1,2 +1,2 @@
 # fashionb-brand-
-fashion clthing brand for ecommerce .
+fashion clothing brand for ecommerce .
